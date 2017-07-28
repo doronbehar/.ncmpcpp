@@ -337,7 +337,7 @@ playlist_disable_highlight_delay = 0
 #
 ## Available values: artist, album_artist, date, genre, composer, performer.
 ##
-#media_library_primary_tag = artist
+media_library_primary_tag = album_artist
 #
 ## Available values: wrapped, normal.
 ##
@@ -435,7 +435,7 @@ display_remaining_time = yes
 ## "The" word while sorting items in browser, tags in
 ## media library, etc.
 ##
-#ignore_leading_the = no
+ignore_leading_the = yes
 #
 #block_search_constraints_change_if_items_found = yes
 #
