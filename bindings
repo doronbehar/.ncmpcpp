@@ -156,6 +156,8 @@
 #
 def_key "k"
 	scroll_up
+def_key "ל"
+	scroll_up
 #def_key "shift-up"
 #  select_item
 #  scroll_up
@@ -164,6 +166,8 @@ def_key "k"
 #  scroll_down
 #
 def_key "j"
+	scroll_down
+def_key "ח"
 	scroll_down
 #def_key "shift-down"
 #  select_item
@@ -310,6 +314,8 @@ def_key "left"
 #
 #def_key "p"
 #  pause
+def_key "פ"
+  pause
 #
 #def_key ">"
 #  next
@@ -327,24 +333,38 @@ def_key "ctrl-h"
 #
 #def_key "f"
 #  seek_forward
+def_key "כ"
+  seek_forward
 #
 #def_key "b"
 #  seek_backward
+def_key "נ"
+  seek_backward
 #
 #def_key "r"
 #  toggle_repeat
+def_key "ר"
+  toggle_repeat
 #
 #def_key "z"
 #  toggle_random
+def_key "ז"
+  toggle_random
 #
 #def_key "y"
 #  save_tag_changes
+def_key "ט"
+  save_tag_changes
 #
 #def_key "y"
 #  start_searching
+def_key "ט"
+  start_searching
 #
 #def_key "y"
 #  toggle_single
+def_key "ט"
+  toggle_single
 #
 #def_key "R"
 #  toggle_consume
@@ -366,12 +386,16 @@ def_key "ctrl-h"
 #
 #def_key "x"
 #  toggle_crossfade
+def_key "ס"
+  toggle_crossfade
 #
 #def_key "X"
 #  set_crossfade
 #
 #def_key "u"
 #  update_database
+def_key "ו"
+  update_database
 #
 #def_key "ctrl-s"
 #  sort_playlist
@@ -429,21 +453,29 @@ def_key "ctrl-h"
 #
 #def_key "i"
 #  show_song_info
+def_key "ן"
+  show_song_info
 #
 #def_key "I"
 #  show_artist_info
 #
 #def_key "g"
 #  jump_to_position_in_song
+def_key "ע"
+  jump_to_position_in_song
 #
 #def_key "l"
 #  show_lyrics
+def_key "ך"
+  show_lyrics
 #
 #def_key "ctrl-v"
 #  select_range
 #
 #def_key "v"
 #  reverse_selection
+def_key "ה"
+  reverse_selection
 #
 #def_key "V"
 #  remove_selection
@@ -453,12 +485,18 @@ def_key "ctrl-h"
 #
 #def_key "a"
 #  add_selected_items
+def_key "ש"
+  add_selected_items
 #
 #def_key "c"
 #  clear_playlist
+def_key "ב"
+  clear_playlist
 #
 #def_key "c"
 #  clear_main_playlist
+def_key "ב"
+  clear_main_playlist
 #
 #def_key "C"
 #  crop_playlist
@@ -468,18 +506,28 @@ def_key "ctrl-h"
 #
 #def_key "m"
 #  move_sort_order_up
+def_key "צ"
+  move_sort_order_up
 #
 #def_key "m"
 #  move_selected_items_up
+def_key "צ"
+  move_selected_items_up
 #
 #def_key "m"
 #  set_visualizer_sample_multiplier
+def_key "צ"
+  set_visualizer_sample_multiplier
 #
 #def_key "n"
 #  move_sort_order_down
+def_key "מ"
+  move_sort_order_down
 #
 #def_key "n"
 #  move_selected_items_down
+def_key "מ"
+  move_selected_items_down
 #
 #def_key "M"
 #  move_selected_items_to
